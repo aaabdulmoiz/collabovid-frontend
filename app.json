@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": true,
       "config": {
-        "googleMapsApiKey": "AIzaSyC4nR3FoULLvqZzhhaHYaT6hqbZEd2cOds"
+        "googleMapsApiKey": "*******************"
       }
     },
     "android": {
@@ -30,7 +30,7 @@
       "package": "com.aaabdulmoiz.collabovid",
       "config": {
         "googleMaps": {
-          "apiKey":"AIzaSyC4nR3FoULLvqZzhhaHYaT6hqbZEd2cOds" 
+          "apiKey":"********************" 
         }
       }
     },
