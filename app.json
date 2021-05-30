@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/shake.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyC4nR3FoULLvqZzhhaHYaT6hqbZEd2cOds"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aaabdulmoiz.collabovid",
+      "config": {
+        "googleMaps": {
+          "apiKey":"AIzaSyC4nR3FoULLvqZzhhaHYaT6hqbZEd2cOds" 
+        }
       }
     },
     "web": {
